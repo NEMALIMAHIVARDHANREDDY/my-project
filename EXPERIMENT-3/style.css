@@ -1,0 +1,57 @@
+:root{
+    --header-bg: green ;
+    --nav-bg: grey  ;
+    --nav-bg: grey;
+    --footer-bg: green;
+}
+input:checked ~ .container{
+    --header-bg: darkgrey ;
+    --nav-bg: darkgrey  ;
+    --nav-bg: darkgrey;
+    --footer-bg: darkgrey;
+}
+
+header{
+    background-color: var(--header-bg);
+    border: solid black;
+    background-color: green;
+    grid-column: 1/span 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+
+aside{
+    background-color: var(--nav-bg);
+    border: solid black;
+    background-color:grey;
+}
+
+
+main{
+    border: solid black;
+    background-color: white;
+}
+
+
+footer{
+    background-color: var(--footer-bg);
+    border: solid black;
+    background-color: green;
+    grid-column: 1/span 2;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+.myclass{
+    height:100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
