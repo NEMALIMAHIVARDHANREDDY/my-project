@@ -12,3 +12,4 @@ Learning outcomes:
 1. I hav elearnt Basics of javascript and hoe to use in HTML.
 2. i Learnt how to create a textbox and below that a characters that will help to count the characters in the textbox that you entered.
 3. I undeerstand hoe to implement javascript in this live character experiment to count the characters.
+
